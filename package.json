@@ -1,0 +1,16 @@
+{
+  "name": "controlgroup",
+  "version": "1.0.0",
+  "description": "Server providing a JSON response for a request providing hour and minute looking for a response providing the angle between the hour and minute hands on a clock.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-router": "^9.1.0"
+  }
+}
