@@ -23,7 +23,8 @@ function getAngleBetweenHourAndMinuteHands(hourHand, minuteHand)
     const minutesAngles = 6.0 * minuteHand          // Each minute is 6 degrees apart (360/60)
   
     let angle = Math.abs(hourPlusMinutesAngle + hourAngle - minutesAngles) // Get the diffference between the hour hand location and the minute hand location
-  
+    angle = Math.min(360 - angle, angle)
+
     return angle
 }  
 
