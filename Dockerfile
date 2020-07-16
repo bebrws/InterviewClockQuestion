@@ -3,3 +3,4 @@ WORKDIR /usr/angle
 COPY package.json .
 RUN npm install --quiet
 COPY . .
+CMD npm start

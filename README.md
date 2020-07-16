@@ -11,3 +11,4 @@ An example request to:
     http://localhost/angle?hour=4&min=42
 Should result in:
     {"angle":111}
+
